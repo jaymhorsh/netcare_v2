@@ -32,13 +32,13 @@ const Header = () => {
               <div className="flex items-center gap-20 h-full">
                 <div>
                   <NavLink to="/">
-                    <h1 className="text-xl text-first font-semibold">
+                    <h1 className="text-xl font-lalezar text-first font-semibold">
                       Netcare
                     </h1>
                   </NavLink>
                 </div>
                 <div className="">
-                  <ul className="md:flex hidden ">
+                  <ul className="md:flex hidden">
                     <li
                       // change link color when path changes
                       className={`${

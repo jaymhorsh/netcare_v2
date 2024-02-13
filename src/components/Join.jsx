@@ -2,13 +2,13 @@ import React from "react";
 
 const Join = () => {
   return (
-    <div className="md:w-[80%] m-auto my-16">
+    <div className="w-[80%] m-auto my-16">
       <div className="py-12 bg-gradient-to-r rounded-xl flex justify-center items-center flex-col from-grad1 text-center to-grad2 text-white">
-        <div>
-          <p className="text-3xl font-semibold">
+        <div className="px-8">
+          <p className="md:text-3xl xs:text-2xl font-semibold ">
             Be among the first to revolutionize the health care sector.
           </p>
-          <p className="w-2/4 m-auto text-lg pt-3 text-[#FCFCFD]">
+          <p className="md:w-2/4 m-auto text-lg pt-3 text-[#FCFCFD]">
             Ramp up your hospital management experience. NetCare is here to
             ensure that both health care practitioners and patients get the best
             out of technology.
