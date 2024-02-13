@@ -1,6 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 import defaultTheme from "tailwindcss/defaultTheme";
-
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   darkMode: "class",
@@ -10,6 +9,12 @@ module.exports = {
         "first": "#004FFF", // Dark background color
         "grad1":"#002F94",
         "grad2":"#4480E6"
+
+      },
+      fontFamily: {
+        'sans': ['Inter', 'sans-serif'],
+        'mono': ["Source Sans 3", 'sans-serif'],
+        'lalezar': ["Lalezar", 'system-ui']
 
       },
       fontSize: {
