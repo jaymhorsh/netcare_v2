@@ -2,7 +2,7 @@ import React from "react";
 import heroicon from "../Assets/heroImage.png";
 const Hero = () => {
   return (
-    <div className=" lg:p-24 pt-24 sm:pt-28 ">
+    <div className=" lg:pt-24 pt-24 sm:pt-28 ">
       <div className="w-full h-full ">
         <div className="flex items-center xs:flex-col-reverse sm:flex-col-reverse md:flex-row ">
           <div className="lg:w-[72%] ">

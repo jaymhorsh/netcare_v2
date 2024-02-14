@@ -9,7 +9,7 @@ const Footer = () => {
             <h2 className="text-first font-medium text-2xl font-lalezar">Netcare</h2>
           </div>
           <div>
-            <p className="text-gray-800"> &copy;2024 Netcare Software Team, All Right Reserved</p>
+            <p className="text-gray-800"> &copy; 2024 Netcare Software Team, All Right Reserved.</p>
           </div>
         </div>
       </div>
