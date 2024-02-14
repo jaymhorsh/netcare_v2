@@ -5,6 +5,7 @@ import { Fragment } from "react";
 import About from "../components/About";
 import Join from "../components/Join";
 import Footer from "../components/Footer";
+import Product from "../components/Product";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <Header />
       <Hero />
       <About/>
+      <Product/>
       <Join/>
       <Footer/>
     </Fragment>
