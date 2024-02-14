@@ -5,7 +5,7 @@ import { Fragment } from "react";
 import About from "../components/About";
 import Join from "../components/Join";
 import Footer from "../components/Footer";
-import Product from "../components/Product";
+import Product from "../components/Products/Product";
 
 const Home = () => {
   return (

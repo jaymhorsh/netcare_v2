@@ -3,7 +3,7 @@ import { ChevronRightIcon } from "@heroicons/react/outline";
 
 const About = () => {
   return (
-    <div className="w-full md:my-10 xs:mt-16  ">
+    <div className="w-full my-10 xs:mt-16  ">
       <div className="flex flex-col justify-center items-center gap-5">
         <div className="md:w-[70%] m-auto md:gap-32 xs:flex-col xs:text-center flex justify-center">
           <div className="md:w-[25%] xs:pb-4">
