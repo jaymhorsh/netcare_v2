@@ -1,6 +1,7 @@
 # NetCare
 
 NetCare is a comprehensive healthcare solution designed to empower individuals (patients and healthcare specialists) with real-time healthcare services using innovative technology. It is a virtual hospital where virtually everything is possible. NetCare is an all-powerful hospital management software designed to provide innovative healthcare solutions that work.
+
 Note: The web is still in production, new features would be implemented subsequently.
 
 ## Table of Contents
