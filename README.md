@@ -1,15 +1,12 @@
 # NetCare
 
 NetCare is a comprehensive healthcare solution designed to empower individuals (patients and healthcare specialists) with real-time healthcare services using innovative technology. It is a virtual hospital where virtually everything is possible. NetCare is an all-powerful hospital management software designed to provide innovative healthcare solutions that work.
-Note: The web is still on production, new features would be implemented subsequently.
+Note: The web is still in production, new features would be implemented subsequently.
 
 ## Table of Contents
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -28,12 +25,12 @@ Note: The web is still on production, new features would be implemented subseque
 To install NetCare, follow these steps:
 
 1. Clone the repository:
- ```bash
-   git clone https://github.com/your-username/netcare.git
-2. Navigate to the folder path `cd netcare`
+ ```bash git clone https://github.com/jaymhorsh/netcare.git ```
 
-### Run `npm install`
-installs the dependencies used in the project 
+2. Navigate to the folder path `cd netcare`
+3. run `npm install` to install the dependencies
+4. run `npm run start` to start the development server
+
    
 ### `npm start`
 Runs the app in the development mode.
