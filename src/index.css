@@ -9,6 +9,7 @@
     box-sizing: border-box;
     font-family: "Source Sans 3", sans-serif;
   }
+ 
   html {
     font-size: 14px;
     font-weight: 400;
@@ -32,4 +33,10 @@
     bg-transparent rounded-xl   border-[1px] 
       hover:bg-first transition-all duration-500 hover:text-white;
   }
+}
+.slick-slide > div{
+  margin: 0px 1rem;
+}
+.slick-prev:before, .slick-next::before{
+  display: none;
 }
