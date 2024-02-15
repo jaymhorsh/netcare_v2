@@ -2,6 +2,7 @@ import React from "react";
 
 const ProductList = ({ imgSrc, title }) => {
   return (
+    
     <div className="bg-grad1 rounded-lg ">
       <div className="py-4 px-5 ">
         <p className="text-white text-center">

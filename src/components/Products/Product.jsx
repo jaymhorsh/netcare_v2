@@ -1,5 +1,5 @@
 import React from "react";
-import { ChevronRightIcon } from "@heroicons/react/outline";
+import { ChevronRightIcon, ChevronLeftIcon } from "@heroicons/react/outline";
 import ProductList from "./ProductList";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -34,27 +34,45 @@ const Product = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 1, // Default number of slides to show
+    slidesToShow: 4, // Default number of slides to show
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000, // Change this value to adjust autoplay speed
+    autoplaySpeed: 2000, // Change this value to adjust autoplay speed
+    prevArrow: (
+      <span>
+        <ChevronLeftIcon className="text-first font-semibold text-4xl" />
+      </span>
+    ),
+    nextArrow: (
+      <span>
+        {" "}
+        <ChevronRightIcon className="text-first text-2xl" />
+      </span>
+    ),
+
     responsive: [
       {
-        breakpoint: 768, // Breakpoint for mobile devices
+        breakpoint: 1024,
         settings: {
-          slidesToShow: 1, // Number of slides to show on mobile
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
         },
       },
       {
-        breakpoint: 1024, // Breakpoint for tablets and small screens
+        breakpoint: 600,
         settings: {
-          slidesToShow: 2, // Number of slides to show on tablets
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 2,
         },
       },
       {
-        breakpoint: 1280, // Breakpoint for medium screens
+        breakpoint: 480,
         settings: {
-          slidesToShow: 3, // Number of slides to show on medium screens
+          slidesToShow: 1,
+          slidesToScroll: 1,
         },
       },
     ],
@@ -63,12 +81,12 @@ const Product = () => {
     <div className="bg-blue-100 w-full h-full ">
       <div className="flex justify-center py-6 items-center flex-col ">
         <div>
-          <p className="text-5xl font-semibold">
+          <p className="md:text-5xl xs:text-3xl font-semibold">
             Let's see what
             <span className="font-lalezar text-first"> Netcare </span> can do.
           </p>
         </div>
-        <div className="grid grid-cols-4 gap-8 w-full px-14 py-8">
+        <div className=" w-full  md:px-14 py-14 xs:px-8 ">
           <Slider {...settings}>
             {products.map((product) => (
               <ProductList
