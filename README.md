@@ -28,17 +28,15 @@ Note: The web is still on production, new features would be implemented subseque
 To install NetCare, follow these steps:
 
 1. Clone the repository:
-
-   ```bash
+ ```bash
    git clone https://github.com/your-username/netcare.git
-2.  ```bash
-  cd netcare
-3. Run  ```bash npm install 
-to install the dependencies 
+2. Navigate to the folder path `cd netcare`
 
+### Run `npm install`
+installs the dependencies used in the project 
+   
 ### `npm start`
-
-Runs the app in the development mode.\
+Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 
