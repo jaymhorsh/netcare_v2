@@ -9,7 +9,7 @@ Note: The web is still in production, new features would be implemented subseque
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 
-## Features
+## Features to the Add
 
 - Real-time healthcare services
 - Virtual hospital experience
@@ -28,7 +28,7 @@ To install NetCare, follow these steps:
 1. Clone the repository:
  ```bash git clone https://github.com/jaymhorsh/netcare.git ```
 
-2. Navigate to the folder path `cd netcare`
+2. Navigate to the folder path using `cd netcare`
 3. run `npm install` to install the dependencies
 4. run `npm run start` to start the development server
 
