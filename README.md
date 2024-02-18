@@ -10,7 +10,7 @@ Note: The web is still in production, new features would be implemented subseque
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 
-## Features to the Add
+## Features to be added
 
 - Real-time healthcare services
 - Virtual hospital experience
@@ -19,7 +19,6 @@ Note: The web is still in production, new features would be implemented subseque
 ## Technologies Used
 
 - Create React App (CRA)
-- Slick Slider
 - Tailwind CSS
 
 ## Installation
