@@ -34,10 +34,10 @@ const Product = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 4, // Default number of slides to show
+    slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000, // Change this value to adjust autoplay speed
+    autoplaySpeed: 2000,
     prevArrow: (
       <span>
         <ChevronLeftIcon className="text-first font-semibold text-4xl" />
