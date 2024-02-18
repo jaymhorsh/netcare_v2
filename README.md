@@ -1,3 +1,4 @@
+
 # NetCare
 
 NetCare is a comprehensive healthcare solution designed to empower individuals (patients and healthcare specialists) with real-time healthcare services using innovative technology. It is a virtual hospital where virtually everything is possible. NetCare is an all-powerful hospital management software designed to provide innovative healthcare solutions that work.
@@ -36,11 +37,3 @@ To install NetCare, follow these steps:
 ### `npm start`
 Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-
-
-
-
-
-
-

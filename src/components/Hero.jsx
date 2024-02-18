@@ -9,7 +9,7 @@ const Hero = () => {
             <img src={heroicon} alt="heroimg" className="w-full object-cover" />
           </div>
           <div className="flex flex-col lg:w-[32%] md:ml-[-7rem] xs:w-[70%] sm:w-[70%]">
-            <h1 className="text-36 font-bold text-center text-first">The Plethora of hospital management.</h1>
+            <h1 className="text-36 font-bold text-center text-first">The Plethora of Hospital Management.</h1>
             <p className="text-center italic pt-3">
               Imagine a virtual hospital where virtually everything is possible.
               NetCare is the all-powerful hospital management software designed
